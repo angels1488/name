@@ -1,0 +1,11 @@
+age=int(input())
+if age<=-31:
+    print("нет")
+if age>=-30 and age <=-2:
+    print("да")
+if age>=-3 and age <=6:
+    print("нет")
+if age>=7 and age <=24:
+    print("да")
+if age>=25:
+    print("нет")
